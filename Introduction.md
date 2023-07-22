@@ -23,7 +23,9 @@ Free and open source version control system, most widely used.
 # Steps:
     1. git init -> Just to create a local repository locally in a folder to get ".git"
     2. Create an empty repo online, to basically push our work to.
-    
+    3. Either add the repo to a remote list on the machine like:
+        git remote add origin 
+
 # git add:
 -> Basically .git should track all the files in the directory for the modification or a new creation.
 -> git status will show the untracked files to be staged or added, to be further committed. 
