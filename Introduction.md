@@ -19,4 +19,22 @@ Free and open source version control system, most widely used.
 5. commit: 
 6. Push: 
 
--> ".git" is the hidden folder which stores all the project versions that we have commited.
+-> ".git" is the hidden folder which stores all the project versions that we have been committed.
+
+# git add:
+-> Basically .git should track all the files in the directory for the modification or a new creation.
+-> git status will show the untracked files to be staged or added, to be further committed. 
+-> "(master *+)", the tag shown on the cli when the changes made are not staged or added using "git add <filename>".
+-> "(master +)", tag shown on the cli after the changes have been added.  
+-> Files/Folders which are not added/staged will not get committed/saved in the local git. 
+-> Therefore, we need to use "git add <filename>" to add/stage the modified file/folders, which will be committed later all at once.
+
+# git commit:
+-> Now git has added all the changes, which are supposed to be saved locally for the version control.
+-> "git commit -m <message>"
+-> It will control all the versions locally in the system.
+-> Now, its ready top be pushed to the online repository.
+
+# git push: 
+-> We need ssh key to connect our local machine to the online account.
+ 
