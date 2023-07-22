@@ -51,17 +51,34 @@ Free and open source version control system, most widely used.
 -> Username: <Username> of the account.
 -> Password: <accessToken>
 
-# git pull request:
-
 # Branching:
  -> Lets say we create a new branch of our project(feature branch).
  -> The base code will be same but with a we will be updating it with new features.
  -> After the job is done, we will merge it back to the master branch.
  -> "git branch" will show all the available branchbes on the local machine.
  -> "git checkout -b <branch>" it will create and take us to the side branch. (-b is to create the branch).
- -> "git checkout <branch>" ti just move to the specified branch.
-
-
+ -> "git checkout <branch>" to just move to the specified branch.
+ -> The moment we push, we create/update the same branch online, untill specified.
+ 
  Note: whenever we create a branch, its a complete new and separate copy of the base project. 
         Therefore, after that in each branch we can have different content, untill merged
         
+
+# git pull request:
+ -> To merge the branches, online.
+ -> This way we can review and compare befor merging.
+ -> 
+
+ Note: But ofcourse, we merge the branch to lets say master, the local master has no clue about that.
+        So, we need to get those changes in local as well, therefore, "git pull" will get all the changes required.
+
+ -> Its a good practise to delete the branch after merged, "git branch -d <branch>".
+
+# git merge:
+ -> We in the child branch, "git merge <master>".
+ -> We might get merge conflicts, to be solved manually.
+
+# git fork:
+ -> To get someone else's repo under our account.
+ -> This way we can work with it under our account.
+ -> We can merge it with actuall project later.
