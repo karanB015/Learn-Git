@@ -20,7 +20,10 @@ Free and open source version control system, most widely used.
 6. Push: 
 
 -> ".git" is the hidden folder which stores all the project versions that we have been committed.
-
+# Steps:
+    1. git init -> Just to create a local repository locally in a folder to get ".git"
+    2. Create an empty repo online, to basically push our work to.
+    
 # git add:
 -> Basically .git should track all the files in the directory for the modification or a new creation.
 -> git status will show the untracked files to be staged or added, to be further committed. 
