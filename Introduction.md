@@ -36,5 +36,9 @@ Free and open source version control system, most widely used.
 -> Now, its ready top be pushed to the online repository.
 
 # git push: 
--> We need ssh key to connect our local machine to the online account.
- 
+-> We need the access token as a password.
+-> Login to the github account - profile - settings - Developer setting - Personal access tokens - Generate new tokens()
+-> Add a a note and give all the permissions - generate the token.
+-> "git push https://github.com/karanB015/Learn-Git.git" 
+-> Username: <Username> of the account.
+-> Password: <accessToken>
