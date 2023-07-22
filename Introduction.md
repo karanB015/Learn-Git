@@ -82,3 +82,7 @@ Free and open source version control system, most widely used.
  -> To get someone else's repo under our account.
  -> This way we can work with it under our account.
  -> We can merge it with actuall project later.
+
+ "This branch is 10 commits ahead, 1 commit behind main."
+ Basically, we have committed/pushed to the branch 10 times after creating it apart from main/master branch.
+ But, after creating it, we made a change in our main branch 1 time.
