@@ -24,7 +24,10 @@ Free and open source version control system, most widely used.
     1. git init -> Just to create a local repository locally in a folder to get ".git"
     2. Create an empty repo online, to basically push our work to.
     3. Either add the repo to a remote list on the machine like:
-        git remote add origin 
+        git remote add origin <HTTPS-Link>
+        git remote -v: To check the list of the available remote repositories.
+    4. Or simply we can directly push to a specified repo directly:
+        git push https://github.com/karanB015/Learn-Git.git
 
 # git add:
 -> Basically .git should track all the files in the directory for the modification or a new creation.
@@ -47,3 +50,12 @@ Free and open source version control system, most widely used.
 -> "git push https://github.com/karanB015/Learn-Git.git" 
 -> Username: <Username> of the account.
 -> Password: <accessToken>
+
+# git pull request:
+
+# Branching:
+ -> Lets say we create a new branch of our project(feature branch).
+ -> The base code will be same but with a we will be updating it with new features.
+ -> After the job is done, we will merge it back to the master branch.
+ -> "git branch" will show all the available branchbes on the local machine.
+ ->
