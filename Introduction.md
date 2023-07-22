@@ -58,4 +58,10 @@ Free and open source version control system, most widely used.
  -> The base code will be same but with a we will be updating it with new features.
  -> After the job is done, we will merge it back to the master branch.
  -> "git branch" will show all the available branchbes on the local machine.
- ->
+ -> "git checkout -b <branch>" it will create and take us to the side branch. (-b is to create the branch).
+ -> "git checkout <branch>" ti just move to the specified branch.
+
+
+ Note: whenever we create a branch, its a complete new and separate copy of the base project. 
+        Therefore, after that in each branch we can have different content, untill merged
+        
