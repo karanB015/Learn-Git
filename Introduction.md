@@ -4,7 +4,7 @@ Free and open source version control system, most widely used.
 
 # Version control: 
     way to track the progress of the program or the code changes.
-    So basically we add/save the current program and then we cn proceed further.
+    So basically we add/save the current program and then we can proceed further.
     Afterwards, we can trace back all the changes made over time.
     We can go back to previous version or check the bugs.!
 
@@ -13,9 +13,9 @@ Free and open source version control system, most widely used.
     3. GitHub -> Wbesite to host the repositories online.
 
 1. Clone: Bring the repo. from the hosted website on the folder on local machine.(GitHub to local)
-2. Fetch: 
+2. Fetch: To get the branches which were formed after you cloned the project for the first time.
 3. add:
-4. Pull: Download the changes from the remote repo to the local machine. (opposite of the push)
+4. Pull: Download the changes from the remote repo to the local machine(opposite of the push), but only in the branches which existed while you cloned.
 5. commit: 
 6. Push: 
 
